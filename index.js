@@ -15,5 +15,5 @@ app.use('/api-docs',swaggerUI.serve,swaggerUI.setup(swaggerDocument));
 app.use('/calculator', calculatorRoutes);
 
 app.listen(port, () => {
-    console.log(`Listening at http://localhost:${port}/calculator2.html`);
+    console.log(`Listening at http://localhost:${port}`);
 })
